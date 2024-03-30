@@ -7,7 +7,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "marca_produto")
-@SequenceGenerator(name = "seq_marca_produto", sequenceName = "seq_marca_produto", allocationSize = 1)
+@SequenceGenerator(name = "seq_marca_produto", sequenceName = "seq_marca_produto",initialValue = 1, allocationSize = 1)
 public class MarcaProduto implements Serializable {
 
     @Id

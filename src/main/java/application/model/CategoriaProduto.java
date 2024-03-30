@@ -8,7 +8,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "categoria_produto")
-@SequenceGenerator(name = "seq_categoria_produto", sequenceName = "seq_categoria_produto", allocationSize = 1)
+@SequenceGenerator(name = "seq_categoria_produto", sequenceName = "seq_categoria_produto", initialValue = 1, allocationSize = 1)
 public class CategoriaProduto implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
